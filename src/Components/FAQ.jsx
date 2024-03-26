@@ -3,8 +3,8 @@ import Accordion from "./Accordion";
 
 const FAQ = () => {
     return (
-        <div className=" bg-gray-200 rounded-lg">
-            <h1 className=" text-center text-4xl text-black font-bold "> FAQs </h1>
+        <div className="bg-white rounded-lg py-2">
+            <h1 className="text-center text-4xl text-[#00df9a] font-bold py-3 "> FAQs </h1>
             <Accordion
                 title="Do you prefer Android or iOS"
                 answer="I like to use iOS products"

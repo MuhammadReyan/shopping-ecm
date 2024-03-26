@@ -10,7 +10,7 @@ const Hero = () => {
           <Container>
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div className='ml-10'>
+                <div className='ml-[10rem]'>
                   <h2 className="mb-4 font-semibold text-3xl lg:text-4xl">
                     Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
                   </h2>
@@ -21,7 +21,7 @@ const Hero = () => {
                   </p>
                   <div className="search w-full md:w-3/4 border border-green-400 flex justify-between items-center rounded-full px-4 py-2">
                     <input type="text" placeholder="Search" className="flex-grow border-none outline-none px-2" />
-                    <button className="btn bg-green-500 text-white font-semibold px-4 py-2 rounded-full">Search</button>
+                    <button className="btn bg-[#00df9a] text-white font-semibold px-4 py-2 rounded-full">Search</button>
                   </div>
                 </div>
                 <div className="col-span-1 md:col-span-1">

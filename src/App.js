@@ -7,6 +7,7 @@ import Cards from './Components/Cards';
 import Analytics from './Components/Analytics';
 import FAQ from './Components/FAQ';
 import Footer from './Components/Footer';
+import Newsletter from './Components/Newsletter';
 
 // import { useSelector } from 'react-redux';
 
@@ -22,6 +23,7 @@ function App() {
       <Analytics/>
       <Cards/>
       <FAQ/>
+      <Newsletter/>
       <Footer/>
       {/* <ToastContainer /> */}
     </div>
